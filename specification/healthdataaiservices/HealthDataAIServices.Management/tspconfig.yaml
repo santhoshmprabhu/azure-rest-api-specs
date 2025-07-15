@@ -16,7 +16,7 @@ options:
     namespace: "{package-dir}"
     service-name: "Health Data AI Services"
   "@azure-typespec/http-client-csharp-mgmt":
-    package-name: Azure.ResourceManager.MongoDBAtlas
+    package-name: Azure.ResourceManager.HealthDataAIServices
     namespace: "{package-name}"
     new-project: false
   "@azure-tools/typespec-python":
