@@ -755,7 +755,7 @@ model BatchApplicationListResult {
   #suppress "@azure-tools/typespec-azure-core/casing-style" "The names of Property types must use camelCase"
   @doc("The URL to get the next set of results.")
   @nextLink
-  `odata.nextLink`?: string;
+  `odata.nextLink`?: url;
 }
 
 @doc("Contains information about an application in an Azure Batch Account.")
@@ -811,7 +811,7 @@ model BatchPoolListUsageMetricsResult {
   #suppress "@azure-tools/typespec-azure-core/casing-style" "The names of Property types must use camelCase"
   @doc("The URL to get the next set of results.")
   @nextLink
-  `odata.nextLink`?: string;
+  `odata.nextLink`?: url;
 }
 
 @doc("Usage metrics for a Pool across an aggregation interval.")
@@ -842,7 +842,7 @@ model BatchAccountListSupportedImagesResult {
   #suppress "@azure-tools/typespec-azure-core/casing-style" "The names of Property types must use camelCase"
   @doc("The URL to get the next set of results.")
   @nextLink
-  `odata.nextLink`?: string;
+  `odata.nextLink`?: url;
 }
 
 @doc("""
@@ -913,7 +913,7 @@ model BatchPoolNodeCountsListResult {
   #suppress "@azure-tools/typespec-azure-core/casing-style" "The names of Property types must use camelCase"
   @doc("The URL to get the next set of results.")
   @nextLink
-  `odata.nextLink`?: string;
+  `odata.nextLink`?: url;
 }
 
 @doc("The number of Compute Nodes in each state for a Pool.")
@@ -1148,7 +1148,7 @@ model BatchNodeFileListResult {
   #suppress "@azure-tools/typespec-azure-core/casing-style" "The names of Property types must use camelCase"
   @doc("The URL to get the next set of results.")
   @nextLink
-  `odata.nextLink`?: string;
+  `odata.nextLink`?: url;
 }
 
 @doc("Information about a file or directory on a Compute Node.")
@@ -2481,7 +2481,7 @@ model BatchJobScheduleListResult {
   #suppress "@azure-tools/typespec-azure-core/casing-style" "The names of Property types must use camelCase"
   @doc("The URL to get the next set of results.")
   @nextLink
-  `odata.nextLink`?: string;
+  `odata.nextLink`?: url;
 }
 
 @doc("An Azure Batch Job.")
@@ -2726,7 +2726,7 @@ model BatchJobListResult {
   #suppress "@azure-tools/typespec-azure-core/casing-style" "The names of Property types must use camelCase"
   @doc("The URL to get the next set of results.")
   @nextLink
-  `odata.nextLink`?: string;
+  `odata.nextLink`?: url;
 }
 
 @doc("""
@@ -2742,7 +2742,7 @@ model BatchJobPreparationAndReleaseTaskStatusListResult {
   #suppress "@azure-tools/typespec-azure-core/casing-style" "The names of Property types must use camelCase"
   @doc("The URL to get the next set of results.")
   @nextLink
-  `odata.nextLink`?: string;
+  `odata.nextLink`?: url;
 }
 
 @doc("The status of the Job Preparation and Job Release Tasks on a Compute Node.")
@@ -3251,7 +3251,7 @@ model BatchPoolListResult {
   #suppress "@azure-tools/typespec-azure-core/casing-style" "The names of Property types must use camelCase"
   @doc("The URL to get the next set of results.")
   @nextLink
-  `odata.nextLink`?: string;
+  `odata.nextLink`?: url;
 }
 
 @doc("Parameters for enabling automatic scaling on an Azure Batch Pool.")
@@ -3702,7 +3702,7 @@ model BatchTaskListResult {
   #suppress "@azure-tools/typespec-azure-core/casing-style" "The names of Property types must use camelCase"
   @doc("The URL to get the next set of results.")
   @nextLink
-  `odata.nextLink`?: string;
+  `odata.nextLink`?: url;
 }
 
 @doc("A collection of Azure Batch Tasks to add.")
@@ -3750,7 +3750,7 @@ model BatchTaskListSubtasksResult {
   #suppress "@azure-tools/typespec-azure-core/casing-style" "The names of Property types must use camelCase"
   @doc("The URL to get the next set of results.")
   @nextLink
-  `odata.nextLink`?: string;
+  `odata.nextLink`?: url;
 }
 
 @doc("Information about an Azure Batch subtask.")
@@ -4138,7 +4138,7 @@ model BatchNodeListResult {
   #suppress "@azure-tools/typespec-azure-core/casing-style" "The names of Property types must use camelCase"
   @doc("The URL to get the next set of results.")
   @nextLink
-  `odata.nextLink`?: string;
+  `odata.nextLink`?: url;
 }
 
 #suppress "@azure-tools/typespec-azure-core/casing-style"
@@ -4195,5 +4195,5 @@ model BatchNodeVMExtensionListResult {
 
   @doc("The URL to get the next set of results.")
   @nextLink
-  `odata.nextLink`?: string;
+  `odata.nextLink`?: url;
 }
