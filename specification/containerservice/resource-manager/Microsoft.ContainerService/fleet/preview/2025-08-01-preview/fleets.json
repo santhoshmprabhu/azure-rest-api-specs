@@ -4278,19 +4278,19 @@
       "properties": {
         "cpuRequest": {
           "type": "string",
-          "description": "The CPU request for the managed namespace."
+          "description": "The CPU request for the managed namespace. See more at https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#meaning-of-cpu"
         },
         "cpuLimit": {
           "type": "string",
-          "description": "The CPU limit for the managed namespace."
+          "description": "The CPU limit for the managed namespace. See more at https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#meaning-of-cpu"
         },
         "memoryRequest": {
           "type": "string",
-          "description": "The memory request for the managed namespace."
+          "description": "The memory request for the managed namespace. See more at https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#meaning-of-memory"
         },
         "memoryLimit": {
           "type": "string",
-          "description": "The memory limit for the managed namespace."
+          "description": "The memory limit for the managed namespace. See more at https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#meaning-of-memory"
         }
       }
     },

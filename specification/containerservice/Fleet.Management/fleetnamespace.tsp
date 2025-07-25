@@ -90,16 +90,16 @@ model ManagedNamespaceProperties {
 @doc("The resource quota for the managed namespace.")
 @added(Versions.v2025_08_01_preview)
 model ResourceQuota {
-  @doc("The CPU request for the managed namespace.")
+  @doc("The CPU request for the managed namespace. See more at https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#meaning-of-cpu")
   cpuRequest?: string;
 
-  @doc("The CPU limit for the managed namespace.")
+  @doc("The CPU limit for the managed namespace. See more at https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#meaning-of-cpu")
   cpuLimit?: string;
 
-  @doc("The memory request for the managed namespace.")
+  @doc("The memory request for the managed namespace. See more at https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#meaning-of-memory")
   memoryRequest?: string;
 
-  @doc("The memory limit for the managed namespace.")
+  @doc("The memory limit for the managed namespace. See more at https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#meaning-of-memory")
   memoryLimit?: string;
 }
 
